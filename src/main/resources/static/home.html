@@ -1,0 +1,18 @@
+<h1>Achilles Prototype Dashboard</h1>
+<div ng-show="authenticated" ng-controller="home">
+    <p>Pull Walmart items <button type="submit" class="btn btn-primary" ng-click="pullWalmartItems()">GO</button></p>
+        <div class="alert alert-success" ng-show="walMartGetSuccess">
+            <strong>Success!</strong> Walmart items successfully pulled from api</div>
+
+    <p>Convert to Achilles Items <button type="submit" class="btn btn-primary" ng-click="convertToAchillesItems()">GO</button></p>
+        <div class="alert alert-success" ng-show="convertSuccess">
+            <strong>Success!</strong> Walmart items converted and stored and updated for execution</div>
+
+    <p>Update eBay<button type="submit" class="btn btn-primary" ng-click="updateEbay()">GO</button></p>
+    <div class="alert alert-success" ng-show="updateSuccess">
+        <strong>Success!</strong> Achilles items updated to ebay</div>
+
+</div>
+<div  ng-show="!authenticated">
+    <p>Login to access the dashboard</p>
+</div>

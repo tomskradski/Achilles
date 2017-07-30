@@ -1,0 +1,18 @@
+[API]
+    Walmart API
+    API KEY: gdb2frtdxr9g8965cybkp5ty
+    5 calls per second
+    5000 calls per day
+
+    All Cameras:            3944_133277_4468
+    Digital SLR Cameras:    3944_133277_1096663
+
+    BestBuy API
+    API KEY:
+
+[DEV ENV]
+    AchillesDB      :   192.168.1.201
+    AchillesTomcat  :   192.168.1.202
+
+
+    
